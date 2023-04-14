@@ -1,0 +1,55 @@
+.vale-tw-seguir{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    justify-content: space-between;
+    border-radius: 2rem;
+    border: 2px solid white;
+    padding: 4px;
+}
+
+.tw-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tw-cardinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-infouser{
+    opacity: .6;
+}
+
+.tw-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.tw-boton{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+.tw-boton.esta-seguido{
+    border: 1px solid red;
+}
+
+.tw-boton.esta-seguido:hover{
+    background-color: red;
+}
+
+.tw-boton:hover{
+    transform: scale(1.1);
+    background-color: steelblue;
+}
