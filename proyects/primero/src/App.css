@@ -41,15 +41,41 @@
     border: 1px solid black;
 }
 
-.tw-boton.esta-seguido{
-    border: 1px solid red;
-}
-
-.tw-boton.esta-seguido:hover{
-    background-color: red;
-}
 
 .tw-boton:hover{
     transform: scale(1.1);
     background-color: steelblue;
+    opacity: .8;
+}
+
+
+.tw-texto{
+    display: block;
+}
+
+.tw-boton.esta-seguido{
+    border: 1px solid #bbb;
+    background: transparent;
+    color: white;
+    width: 130px;
+}
+
+.tw-boton.esta-seguido:hover .tw-texto{
+    display: none;
+}
+
+
+.tw-boton.esta-seguido:hover{
+background-color: rgba(255, 0, 0, 178);
+color: white;
+border: 1px solid red;
+transition: .9;
+}
+
+.tw-boton.esta-seguido:hover .tw-dejarDeSeguir{
+    display: block;
+}
+
+.tw-dejarDeSeguir{
+    display: none;
 }
